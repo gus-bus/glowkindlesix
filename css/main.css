@@ -184,7 +184,7 @@ section {
 .ch-page {
     background: url(../img/panelstack.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center center;
     min-height: 100vh;
 }
