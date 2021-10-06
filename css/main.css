@@ -88,19 +88,15 @@ section {
   text-align: center;
   padding: 15em 0;
   background: #222;
+  background: url(../img/heroimage.jpg), radial-gradient(#444, #111);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-@supports (background-blend-mode: multiply) {
-  .hero {
-    background: url(../img/heroimage.jpg), radial-gradient(#444, #111);
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-}
 .product {
-  background: radial-gradient(var(--clr-inner, limegreen), var(--clr-outer, purple));
+  background: radial-gradient(var(--clr-inner), var(--clr-outer));
   padding: 3em;
   border-radius: 1em;
   margin-bottom: 15em;
@@ -149,28 +145,28 @@ section {
   padding: 15em 0;
   max-height: 60vh;
   background: #222;
-  background: url(../img/heroimage.jpg), radial-gradient(#444, #111);
+  background: url(../img/heroimage.jpg), radial-gradient(#666, #333);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .ch-hero.ch1 {
-  background: url(../img/ch1.jpg), radial-gradient(#444, #111);
+  background: url(../img/ch1.jpg), radial-gradient(#777, #444);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center center;
 }
 
 .ch-hero.ch2 {
-  background: url(../img/ch2.jpg), radial-gradient(#444, #111);
+  background: url(../img/ch2.jpg), radial-gradient(#777, #444);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center center;
 }
 
 .ch-hero.ch3 {
-  background: url(../img/ch3.jpg), radial-gradient(#444, #111);
+  background: url(../img/ch3.jpg), radial-gradient(#777, #444);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center center;
